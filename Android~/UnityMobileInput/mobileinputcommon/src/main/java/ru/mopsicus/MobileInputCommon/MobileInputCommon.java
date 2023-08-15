@@ -4,13 +4,13 @@
 // Copyright (c) 2018 Mopsicus <mail@mopsicus.ru>
 // ----------------------------------------------------------------------------
 
-package ru.mopsicus.common;
+package ru.mopsicus.MobileInputCommon;
 
 import org.json.JSONException;
 import org.json.JSONObject;
 import com.unity3d.player.UnityPlayer;
 
-public class Common {
+public class MobileInputCommon {
 
     String object = "Plugins";
     String receiver = "OnDataReceive";

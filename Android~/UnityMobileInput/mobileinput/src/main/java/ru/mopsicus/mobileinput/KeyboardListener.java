@@ -9,12 +9,12 @@ package ru.mopsicus.mobileinput;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import ru.mopsicus.common.Common;
+import ru.mopsicus.MobileInputCommon.MobileInputCommon;
 
 public class KeyboardListener implements KeyboardObserver {
 
     private boolean isPreviousState = false;
-    private Common common = new Common();
+    private MobileInputCommon mobileInputCommon = new MobileInputCommon();
 
     @Override
     public void onKeyboardHeight(float height, int keyboardHeight, int orientation) {
@@ -27,7 +27,7 @@ public class KeyboardListener implements KeyboardObserver {
         } catch (JSONException e) {}
         if (isPreviousState != isShow) {
             isPreviousState = isShow;
-            common.sendData(Plugin.name, json.toString());
+            mobileInputCommon.sendData(Plugin.name, json.toString());
         }
     }
 

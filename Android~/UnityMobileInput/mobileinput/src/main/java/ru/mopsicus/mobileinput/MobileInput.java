@@ -12,7 +12,6 @@ import android.graphics.Typeface;
 import android.text.Editable;
 import android.text.InputType;
 import android.text.TextWatcher;
-import android.util.Log;
 import android.util.SparseArray;
 import android.util.TypedValue;
 import android.view.Gravity;
@@ -73,7 +72,7 @@ public class MobileInput {
                 }
             }
         } catch (JSONException e) {
-            Plugin.common.sendError(Plugin.name, "RECEIVE_ERROR", e.getMessage());
+            Plugin.mobileInputCommon.sendError(Plugin.name, "RECEIVE_ERROR", e.getMessage());
         }
     }
 
@@ -107,7 +106,7 @@ public class MobileInput {
             }
 
         } catch (JSONException e) {
-            Plugin.common.sendError(Plugin.name, "PROCESS_ERROR", e.getMessage());
+            Plugin.mobileInputCommon.sendError(Plugin.name, "PROCESS_ERROR", e.getMessage());
         }
     }
 
@@ -362,7 +361,7 @@ public class MobileInput {
             } catch (JSONException e) {}
             sendData(data);
         } catch (JSONException e) {
-            Plugin.common.sendError(Plugin.name, "CREATE_ERROR", e.getMessage());
+            Plugin.mobileInputCommon.sendError(Plugin.name, "CREATE_ERROR", e.getMessage());
         }
     }
 
@@ -504,7 +503,7 @@ public class MobileInput {
             data.put("id", this.id);
         }
         catch(JSONException e) {}
-        Plugin.common.sendData(Plugin.name, data.toString());
+        Plugin.mobileInputCommon.sendData(Plugin.name, data.toString());
     }
 
 }

@@ -11,7 +11,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.RelativeLayout;
 import android.widget.RelativeLayout.LayoutParams;
-import ru.mopsicus.common.Common;
+import ru.mopsicus.MobileInputCommon.MobileInputCommon;
 import com.unity3d.player.UnityPlayer;
 
 
@@ -22,7 +22,7 @@ public class Plugin {
     public static String KEYBOARD_ACTION = "KEYBOARD_ACTION";
     public static Activity activity;
     public static RelativeLayout layout;
-    public static Common common;
+    public static MobileInputCommon mobileInputCommon;
     private static ViewGroup group;
     private static KeyboardProvider keyboardProvider;
     private static KeyboardListener keyboardListener;
@@ -46,7 +46,7 @@ public class Plugin {
 
     // Init plugin, create layout for MobileInputs
     public static void init() {
-        common = new Common();
+        mobileInputCommon = new MobileInputCommon();
         activity = UnityPlayer.currentActivity;
         activity.runOnUiThread(new Runnable() {
             public void run() {

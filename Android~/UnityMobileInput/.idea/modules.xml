@@ -6,6 +6,16 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Android.UnityMobileInput.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Android.UnityMobileInput.app.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/Android.UnityMobileInput.common.iml" filepath="$PROJECT_DIR$/.idea/modules/common/Android.UnityMobileInput.common.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/mobileinput/Android.UnityMobileInput.mobileinput.iml" filepath="$PROJECT_DIR$/.idea/modules/mobileinput/Android.UnityMobileInput.mobileinput.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Android~.UnityMobileInput.iml" filepath="$PROJECT_DIR$/.idea/modules/Android~.UnityMobileInput.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Android~.UnityMobileInput.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Android~.UnityMobileInput.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Android~.UnityMobileInput.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Android~.UnityMobileInput.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Android~.UnityMobileInput.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Android~.UnityMobileInput.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mobileinput/Android~.UnityMobileInput.mobileinput.iml" filepath="$PROJECT_DIR$/.idea/modules/mobileinput/Android~.UnityMobileInput.mobileinput.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mobileinput/Android~.UnityMobileInput.mobileinput.main.iml" filepath="$PROJECT_DIR$/.idea/modules/mobileinput/Android~.UnityMobileInput.mobileinput.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mobileinput/Android~.UnityMobileInput.mobileinput.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/mobileinput/Android~.UnityMobileInput.mobileinput.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/Android~.UnityMobileInput.mobileinputcommon.iml" filepath="$PROJECT_DIR$/.idea/modules/common/Android~.UnityMobileInput.mobileinputcommon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mobileinputcommon/Android~.UnityMobileInput.mobileinputcommon.main.iml" filepath="$PROJECT_DIR$/.idea/modules/mobileinputcommon/Android~.UnityMobileInput.mobileinputcommon.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mobileinputcommon/Android~.UnityMobileInput.mobileinputcommon.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/mobileinputcommon/Android~.UnityMobileInput.mobileinputcommon.unitTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/UnityMobileInput.iml" filepath="$PROJECT_DIR$/.idea/modules/UnityMobileInput.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/UnityMobileInput.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/UnityMobileInput.app.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/UnityMobileInput.common.iml" filepath="$PROJECT_DIR$/.idea/modules/common/UnityMobileInput.common.iml" />
